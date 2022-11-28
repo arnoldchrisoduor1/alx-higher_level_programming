@@ -1,13 +1,13 @@
 #!/bin/bash
 
-echo "<>" 7-edges.py && chmod u+x 7-edges.py
-echo "<>" 8-concat_edges.py && chmod u+x 8-concat_edges.py
-echo "<>" 9-easter_egg.py && chmod u+x 9-easter_egg.py
-echo "<>" 10-check_cycle.c && chmod u+x 10-check_cycle.c
-echo "<>" lists.h && chmod u+x lists.h
-echo "<>" 100-write.py && chmod u+x 100-write.py
-echo "<>" 101-compile && chmod u+x 101-compile
-echo "<>" 102-magic_calculation.py && chmod u+x 102-magic_calculation.py
+echo "<>" > 7-edges.py && chmod u+x 7-edges.py
+echo "<>" > 8-concat_edges.py && chmod u+x 8-concat_edges.py
+echo "<>" > 9-easter_egg.py && chmod u+x 9-easter_egg.py
+echo "<>" > 10-check_cycle.c && chmod u+x 10-check_cycle.c
+echo "<>" > lists.h && chmod u+x lists.h
+echo "<>" > 100-write.py && chmod u+x 100-write.py
+echo "<>" > 101-compile && chmod u+x 101-compile
+echo "<>" > 102-magic_calculation.py && chmod u+x 102-magic_calculation.py
 
 git add .
 git commit -m "update"
