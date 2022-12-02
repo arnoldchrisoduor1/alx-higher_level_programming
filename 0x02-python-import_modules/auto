@@ -1,0 +1,19 @@
+#!/bin/bash
+
+git pull
+
+
+chmod u+x > 0-add.py
+chmod u+x > 1-calculation.py
+chmod u+x > 3-infinite_add.py
+chmod u+x > 4-hidden_discovery.py
+chmod u+x > 5-variable_load.py
+chmod u+x > 100-my_calculator.py
+chmod u+x > 101-easy_print.py
+chmod u+x 102-magic_calculation.py
+chmod u+x 103-fast_alphabet.py
+
+
+git add .
+git commit -m "initial commit"
+git push
