@@ -1,6 +1,7 @@
 #!/bin/bash
-
-
+git pull
+echo "<>" > 2-uniq_add.py
+chmod u+x 2-uniq_add.py
 git add .
 git commit -m "last update"
 git push
