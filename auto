@@ -1,0 +1,45 @@
+#!/bin/bash
+
+
+
+mkdir 0x17-doubly_linked_lists
+
+cd 0x17-doubly_linked_lists
+
+
+
+echo "<>" > 0-print_dlistint.c
+
+echo "<>" > 1-dlistint_len.c
+
+echo "<>" > 2-add_dnodeint.c
+
+echo "<>" > 3-add_dnodeint_end.c
+
+echo "<>" > 4-free_dlistint.c
+
+echo "<>" > 5-get_dnodeint.c
+
+echo "<>" > 6-sum_dlistint.c
+
+echo "<>" > 7-insert_dnodeint.c
+
+echo "<>" > 2-add_dnodeint.c
+
+echo "<>" > 3-add_dnodeint_end.c
+
+echo "<>" > 8-delete_dnodeint.c
+
+echo "<>" > 100-password
+
+echo "<>" > 102-result
+
+echo "<>" > 103-keygen.c
+
+
+
+git add .
+
+git commit -m "initial update"
+
+git push
