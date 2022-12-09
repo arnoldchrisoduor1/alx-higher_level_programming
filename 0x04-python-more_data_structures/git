@@ -1,7 +1,43 @@
 #!/bin/bash
+
+
+
 git pull
-echo "<>" > 2-uniq_add.py
-chmod u+x 2-uniq_add.py
+
+
+
+echo "<>" > 3-common_elements.py && chmod u+x 3-common_elements.py
+
+echo "<>" > 4-only_diff_elements.py && chmod u+x 4-only_diff_elements.py
+
+echo "<>" > 5-number_keys.py && chmod u+x 5-number_keys.py
+
+echo "<>" > 6-print_sorted_dictionary.py && chmod u+x 6-print_sorted_dictionary.py
+
+echo "<>" > 7-update_dictionary.py && chmod u+x 7-update_dictionary.py
+
+echo "<>" > 8-simple_delete.py && chmod u+x 8-simple_delete.py
+
+echo "<>" > 9-multiply_by_2.py && chmod u+x 9-multiply_by_2.py
+
+echo "<>" > 10-best_score.py && chmod u+x 10-best_score.py
+
+echo "<>" > 11-multiply_list_map.py && chmod u+x 11-multiply_list_map.py
+
+echo "<>" > 12-roman_to_int.py && chmod u+x 12-roman_to_int.py
+
+echo "<>" > 100-weight_average.py && chmod u+x 100-weight_average.py
+
+echo "<>" > 101-square_matrix_map.py && chmod u+x 101-square_matrix_map.py
+
+echo "<>" > 102-complex_delete.py && chmod u+x 102-complex_delete.py
+
+echo "<>" > 103-python.c && chmod u+x 103-python.c
+
+
+
 git add .
-git commit -m "last update"
+
+git commit -m "initial update"
+
 git push
