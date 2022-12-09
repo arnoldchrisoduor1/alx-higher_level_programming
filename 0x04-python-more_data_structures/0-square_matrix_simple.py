@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
   # Create a new empty matrix with the same size as the input matrix
   squared_matrix = [[0 for j in range(len(matrix[0]))] for i in range(len(matrix))]
@@ -11,4 +11,3 @@ def square_matrix_simple(matrix=[]):
 
   # Return the new matrix
   return squared_matrix
-
