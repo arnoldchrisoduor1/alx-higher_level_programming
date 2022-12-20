@@ -1,45 +1,39 @@
-#!/bin/bash
+
+mkdir 0x10-variadic_functions
+n-classes
+
+cd 0x06-python-classes
 
 
 
-mkdir 0x17-doubly_linked_lists
+echo "<>" > 0-square.py
 
-cd 0x17-doubly_linked_lists
+echo "<>" > 1-square.py
 
+echo "<>" > 101-square.py
 
+echo "<>" > 102-square.py
 
-echo "<>" > 0-print_dlistint.c
+echo "<>" > 103-square.py
 
-echo "<>" > 1-dlistint_len.c
+echo "<>" > 2-square.py
 
-echo "<>" > 2-add_dnodeint.c
+echo "<>" > 3-square.py
 
-echo "<>" > 3-add_dnodeint_end.c
+echo "<>" > 4-square.py
 
-echo "<>" > 4-free_dlistint.c
+echo "<>" > 5-square.py
 
-echo "<>" > 5-get_dnodeint.c
+echo "<>" > 6-square.py
 
-echo "<>" > 6-sum_dlistint.c
-
-echo "<>" > 7-insert_dnodeint.c
-
-echo "<>" > 2-add_dnodeint.c
-
-echo "<>" > 3-add_dnodeint_end.c
-
-echo "<>" > 8-delete_dnodeint.c
-
-echo "<>" > 100-password
-
-echo "<>" > 102-result
-
-echo "<>" > 103-keygen.c
+echo "Python Classes and Objects" > README.md
 
 
 
 git add .
 
-git commit -m "initial update"
+git commit -m "more update"
 
 git push
+
+
