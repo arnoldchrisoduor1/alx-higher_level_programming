@@ -1,6 +1,6 @@
+#!/bin/bash
 
-mkdir 0x10-variadic_functions
-n-classes
+mkdir 0x06-python-classes
 
 cd 0x06-python-classes
 
